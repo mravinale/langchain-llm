@@ -28,4 +28,4 @@ def get_completion(prompt, model=llm_model):
 # Press the green button in the gutter to run the script.
 if __name__ == "__main__":
     init()
-    get_completion("What is 1+1?")
+    print(get_completion("What is 1+1?"))
